@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=Roboto+Condensed&display=swap');
+
+h1 {
+  color: white;
+  background-color: red;;
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+  text-align: center;
+  font-family: "Roboto Thin", sans-serif;
+}
+
+h2, h3 {
+  color: #444;
+  font-family: "Roboto Light", sans-serif;
+}
+
+body {
+  margin: 2em;
+}
+
+body, input[type="text"], button {
+  color: #333;
+  font-family: "Lato Black", sans-serif;
+}
+
+/* everywhere else */
+
+* {
+  font-family: Montserrat, sans-serif;
+}
